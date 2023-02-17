@@ -8,6 +8,7 @@
 .topNav2{
   position: fixed;
   width: 100%;
+  overflow-x: hidden;
   background: linear-gradient(180deg, black, transparent);
   z-index: 10;
   select{
@@ -37,9 +38,10 @@
 
 // Top nav bar
 .topNav{
-  position: absolute;
+  position: fixed;
   width: 100%;
   background: linear-gradient(180deg, black, transparent);
+  overflow-x: hidden;
   z-index: 10;
   select{
     background: rgba(0,0,0,.4);
