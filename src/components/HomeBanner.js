@@ -1,4 +1,4 @@
-// import homebanner from "./homebanner.css";
+import homebanner from "./homebanner.css";
 
 const HomeBanner = () => {
     return(

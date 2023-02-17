@@ -1,3 +1,33 @@
+// for new Header
+
+.nav__logo2{
+  width: 200px;
+  padding-left: 0;
+ 
+}
+.topNav2{
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(180deg, black, transparent);
+  z-index: 10;
+  select{
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+    font-size: .875rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 20px;
+  }
+  
+}
+
+
+
+
+
+
+
 
 .nav__logo{
   width: 200px;
@@ -226,18 +256,24 @@
 }
 
 @media only screen and (max-width: 1024px){
-  .nav__logo{
+
+  // for new header2
+
+  .nav__logo2{
     width: 150px;
     height: 60px;
     padding-left: 0;
     padding-top: 10%;
     padding-right: 20%;
   }
-  .topNav{
+  .topNav2{
     position: fixed;
     max-width: 100%;
     background: linear-gradient(180deg, black, transparent);
     z-index: 10;
+    form{
+      margin-right: 100px;
+    }
     select{
       background: rgba(0,0,0,.4);
       border: 1px solid #aaa;
@@ -253,23 +289,45 @@
     button{
       height: 40px;
       margin-top: 10px;
-     * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
+    }
+  }
 
-body { 
-  font-family: sans-serif;
-  max-width: 100%;
-  max-height: 100%;
-  background-image: url("https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg");
-  
-}
-      width: fit-content;
+
+
+
+
+  .nav__logo{
+    width: 150px;
+    height: 60px;
+    padding-left: 0;
+    padding-top: 10%;
+    padding-right: 20%;
+  }
+  .topNav{
+    position: fixed;
+    max-width: 100%;
+    background: linear-gradient(180deg, black, transparent);
+    z-index: 10;
+    form{
+      margin-right: 20px;
+    }
+    select{
+      background: rgba(0,0,0,.4);
+      border: 1px solid #aaa;
+      color: #fff;
       font-size: .775rem;
-      position: relative;
+      padding-left: 1rem;
+      padding-right: 0.5rem;
+      margin-right: 10px;
+      margin-top: 10px;
+      width: fit-content;
+      height: 40px;
+    }
+    button{
+      height: 40px;
+      margin-top: 10px;
+     
+
     }
   }
  

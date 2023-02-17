@@ -1,6 +1,7 @@
 import React from "react";
 import './App.scss';
 import Header from './components/Header.js';
+import Header2 from './components/Header2.js';
 import HomeBanner from "./components/HomeBanner";
 import Login from "./components/Login";
 import Banner from "./components/Banner";
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <React.Fragment>
-              <Header/>
+              <Header2/>
               <HomeBanner/>
             </React.Fragment>
           }/>
