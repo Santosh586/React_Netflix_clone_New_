@@ -96,6 +96,7 @@ const Login = () => {
           <br/>
           {
             page && <div className="form-check">
+            <br/>
             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
             <label className="form-check-label text-white" htmlFor="flexCheckDefault">
               Remember Me

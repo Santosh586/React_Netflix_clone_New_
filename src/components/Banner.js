@@ -1,3 +1,4 @@
+import homebanner from "./homebanner.css";
 const Banner = () => {
     return(
       <div className="banner">

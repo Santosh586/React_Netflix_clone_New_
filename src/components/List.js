@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchData } from "../api/api";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
+import homebanner from "./homebanner.css";
 
 const List = ({ title, param }) => {
   const [list, setList] = useState([]);
